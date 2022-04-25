@@ -1,7 +1,15 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+//UTILS
+// @import './components';
+@import './utils/mixins';
+@import './utils/visually-hidden';
+@import './utils/variables';
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+//BASE
+@import './base/common';
+@import './base/container';
+
+//COMPONENTS
+
+//LAYOUT
+@import './layout/header';
+@import './layout/main-table';
